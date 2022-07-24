@@ -59,6 +59,12 @@ Run database migrations:
 php artisan migrate
 ```
 
+Run Storage Link for Image:
+
+```
+php artisan storage:link
+```
+
 Run database seeder:
 
 ```
