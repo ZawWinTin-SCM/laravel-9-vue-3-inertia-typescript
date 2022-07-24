@@ -33,4 +33,9 @@ class Product extends Model
             set:fn($value) => ucfirst($value),
         );
     }
+
+    public function scopeSort($query)
+    {
+        $query->orderBy('id', 'desc');
+    }
 }
