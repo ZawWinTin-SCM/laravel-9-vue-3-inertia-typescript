@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@interface/*": ["./resources/js/Interfaces/*"],
+        }
+      },
+    "include": [
+        "./resources/js/**/*",
+    ]
+}
